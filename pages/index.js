@@ -1,14 +1,3 @@
-/*
-(async function () {
-
-
-  // MediaStream取得 
-  const localMediaStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
-  const localVideo = document.getElementById('localVideo');
-  localVideo.srcObject = localMediaStream;
-})()
-*/
-
 // List cameras and microphones.
 navigator.mediaDevices.enumerateDevices()
   .then(devices => {
