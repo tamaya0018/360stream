@@ -9,8 +9,13 @@
 </head>
 
 <body>
-  <button onclick="addVideoDeviceOption()">select video device</button>
+  <button onclick="listVideoDeviceOption()">get video devices</button>
   <select id="videoDeviceList"></select>
+  <button onClick="showVideo()">show video</button>
+  <button onClick="stopVideo()">stop video</button>
+  <div>
+    <video id="localVideo" width="400px" muted autoplay playsinline></video>
+  </div>
 </body>
 
 </html>
