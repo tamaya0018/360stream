@@ -1,3 +1,4 @@
+
 // List cameras and microphones.
 function listVideoDeviceOption() {
   var list = document.getElementById("videoDeviceList");
@@ -26,7 +27,7 @@ function listVideoDeviceOption() {
 
 // show video
 async function showVideo() {
-  const id = document.getElementById("videoDeviceList").value;
+  const id = document.getElementById('videoDeviceList').value;
   //console.log(id);
   const localMediaStream = await navigator.mediaDevices.getUserMedia(
     {
@@ -37,7 +38,7 @@ async function showVideo() {
   localVideo.srcObject = localMediaStream;
 }
 
-//stop video
+// stop video
 function stopVideo() {
   const tracks = document.getElementById('localVideo').srcObject.getTracks();
   tracks.forEach(track => {
