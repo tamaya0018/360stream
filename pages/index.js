@@ -28,7 +28,6 @@ function listVideoDeviceOption() {
 // show video
 async function showVideo() {
   const id = document.getElementById('videoDeviceList').value;
-  //console.log(id);
   const localMediaStream = await navigator.mediaDevices.getUserMedia(
     {
       video: { deviceId: id }
