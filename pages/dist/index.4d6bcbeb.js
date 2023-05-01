@@ -558,7 +558,6 @@ function hmrAccept(bundle, id) {
 
 },{}],"gLLPy":[function(require,module,exports) {
 var _room = require("@skyway-sdk/room");
-//const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
 const token = new (0, _room.SkyWayAuthToken)({
     jti: (0, _room.uuidV4)(),
     iat: (0, _room.nowInSec)(),
@@ -635,15 +634,15 @@ const token = new (0, _room.SkyWayAuthToken)({
     }).catch((err)=>{
         console.log(err.name + ": " + err.message);
     });
+    var video;
     cameraList.onchange = async ()=>{
         console.log(cameraList.value);
-        const video1 = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
+        video = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
             deviceId: cameraList.value
         });
-        video1.attach(localVideo);
+        video.attach(localVideo);
         await localVideo.play();
     };
-    // to here まとめられそう
     joinButton.onclick = async ()=>{
         if (roomNameInput.value === "") return;
         const context = await (0, _room.SkyWayContext).Create(token);

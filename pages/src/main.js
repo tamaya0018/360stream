@@ -1,5 +1,4 @@
 import { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } from '@skyway-sdk/room';
-//const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
 
 const token = new SkyWayAuthToken({
     jti: uuidV4(),
@@ -69,10 +68,12 @@ const token = new SkyWayAuthToken({
       console.log(err.name + ": " + err.message);
     })
 
+    var video;
+
     cameraList.onchange = async() => {
         console.log(cameraList.value);
 
-        const video = await SkyWayStreamFactory.createCameraVideoStream(
+        video = await SkyWayStreamFactory.createCameraVideoStream(
             {deviceId: cameraList.value}
         );
       

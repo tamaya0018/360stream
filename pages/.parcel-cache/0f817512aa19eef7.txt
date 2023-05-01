@@ -4,7 +4,7 @@
 105C:\Users\shizu\html\pages\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax133272010094791139 1
 63C:\Users\shizu\html\pages\node_modules\abortcontroller-polyfill133272010134587380 1
 50C:\Users\shizu\html\pages\node_modules\js-yaml\lib133272010161446310 1
-37C:\Users\shizu\html\pages\src\main.js133273879590532855 0
+37C:\Users\shizu\html\pages\src\main.js133273904476711445 0
 76C:\Users\shizu\html\pages\node_modules\.bin\node-gyp-build-optional-packages133272010078482007 0
 70C:\Users\shizu\html\pages\node_modules\caniuse-lite\data\regions\YT.js133272010146157472 0
 59C:\Users\shizu\html\pages\node_modules\lodash\_arraySome.js133272010165638231 0
@@ -30,7 +30,7 @@
 115C:\Users\shizu\html\pages\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\main.js133272010087067638 0
 75C:\Users\shizu\html\pages\node_modules\@parcel\watcher\src\watchman\BSER.hh133272010123230785 0
 62C:\Users\shizu\html\pages\node_modules\lodash\fp\forInRight.js133272010169880582 0
-30C:\Users\shizu\html\pages\dist133273880409087977 1
+30C:\Users\shizu\html\pages\dist133273902562957230 1
 74C:\Users\shizu\html\pages\node_modules\@parcel\utils\src\parseCSSImport.js133272010122248305 0
 72C:\Users\shizu\html\pages\node_modules\@parcel\workers\lib\WorkerFarm.js133272010123362372 0
 59C:\Users\shizu\html\pages\node_modules\terser\lib\output.js133272010182520334 0
@@ -7110,7 +7110,7 @@
 69C:\Users\shizu\html\pages\node_modules\@parcel\utils\src\sourcemap.js133272010122411987 0
 66C:\Users\shizu\html\pages\node_modules\@parcel\utils\src\stream.js133272010122411987 0
 69C:\Users\shizu\html\pages\node_modules\@parcel\utils\src\TapStream.js133272010122088087 0
-52C:\Users\shizu\html\pages\dist\index.4d6bcbeb.js.map133273880409012800 0
+52C:\Users\shizu\html\pages\dist\index.4d6bcbeb.js.map133273902562913806 0
 94C:\Users\shizu\html\pages\node_modules\@parcel\package-manager\test\NodePackageManager.test.js133272010097826310 0
 94C:\Users\shizu\html\pages\node_modules\@parcel\transformer-posthtml\src\PostHTMLTransformer.js133272010121408156 0
 64C:\Users\shizu\html\pages\node_modules\@parcel\types\build-ts.js133272010121686921 0
@@ -7999,5 +7999,5 @@
 50C:\Users\shizu\html\pages\node_modules\.bin\terser133272010078686353 0
 54C:\Users\shizu\html\pages\node_modules\.bin\terser.cmd133272010078686353 0
 54C:\Users\shizu\html\pages\node_modules\.bin\terser.ps1133272010078720135 0
-48C:\Users\shizu\html\pages\dist\index.4d6bcbeb.js133273880408754082 0
-41C:\Users\shizu\html\pages\dist\index.html133273878704161928 0
+48C:\Users\shizu\html\pages\dist\index.4d6bcbeb.js133273902562703508 0
+41C:\Users\shizu\html\pages\dist\index.html133273902560273711 0
