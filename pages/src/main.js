@@ -1,4 +1,5 @@
 import { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } from '@skyway-sdk/room';
+//const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
 
 const token = new SkyWayAuthToken({
     jti: uuidV4(),
@@ -53,13 +54,13 @@ const token = new SkyWayAuthToken({
     const myId = document.getElementById('my-id');
     const joinButton = document.getElementById('join');
 
-    // list all video devices
-    SkyWayStreamFactory.enumerateInputVideoDevices()
+    navigator.mediaDevices.enumerateDevices()
     .then(devices => {
-      devices.forEach(device => {
-        console.log(device.kind + ": " + device.label + " id = " + device.id);
+      const videoDevices = devices.filter(device => device.kind === 'videoinput');
+      videoDevices.forEach(device => {
+        console.log(device.kind + ": " + device.label + " id = " + device.deviceId);
         var option = document.createElement("option");
-        option.value = device.id;
+        option.value = device.deviceId;
         option.text = device.label;
         cameraList.appendChild(option);
       });
@@ -67,14 +68,6 @@ const token = new SkyWayAuthToken({
     .catch(err => {
       console.log(err.name + ": " + err.message);
     })
-
-    // from here 
-    const video = await SkyWayStreamFactory.createCameraVideoStream(
-        {deviceId: cameraList.value}
-    );
-
-    video.attach(localVideo);
-    await localVideo.play();
 
     cameraList.onchange = async() => {
         console.log(cameraList.value);
@@ -86,7 +79,6 @@ const token = new SkyWayAuthToken({
         video.attach(localVideo);
         await localVideo.play();
     }
-    // to here まとめられそう
 
     joinButton.onclick = async () => {
       if (roomNameInput.value === '') return;

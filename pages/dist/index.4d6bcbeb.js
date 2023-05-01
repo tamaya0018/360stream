@@ -558,6 +558,7 @@ function hmrAccept(bundle, id) {
 
 },{}],"gLLPy":[function(require,module,exports) {
 var _room = require("@skyway-sdk/room");
+//const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
 const token = new (0, _room.SkyWayAuthToken)({
     jti: (0, _room.uuidV4)(),
     iat: (0, _room.nowInSec)(),
@@ -622,30 +623,24 @@ const token = new (0, _room.SkyWayAuthToken)({
     const cameraList = document.getElementById("camera-list");
     const myId = document.getElementById("my-id");
     const joinButton = document.getElementById("join");
-    // list all video devices
-    (0, _room.SkyWayStreamFactory).enumerateInputVideoDevices().then((devices)=>{
-        devices.forEach((device)=>{
-            console.log(device.kind + ": " + device.label + " id = " + device.id);
+    navigator.mediaDevices.enumerateDevices().then((devices)=>{
+        const videoDevices = devices.filter((device)=>device.kind === "videoinput");
+        videoDevices.forEach((device)=>{
+            console.log(device.kind + ": " + device.label + " id = " + device.deviceId);
             var option = document.createElement("option");
-            option.value = device.id;
+            option.value = device.deviceId;
             option.text = device.label;
             cameraList.appendChild(option);
         });
     }).catch((err)=>{
         console.log(err.name + ": " + err.message);
     });
-    // from here 
-    const video = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
-        deviceId: cameraList.value
-    });
-    video.attach(localVideo);
-    await localVideo.play();
     cameraList.onchange = async ()=>{
         console.log(cameraList.value);
-        const video = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
+        const video1 = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
             deviceId: cameraList.value
         });
-        video.attach(localVideo);
+        video1.attach(localVideo);
         await localVideo.play();
     };
     // to here まとめられそう
@@ -1825,8 +1820,8 @@ parcelHelpers.export(exports, "nowInSec", ()=>nowInSec);
 parcelHelpers.export(exports, "roomTypes", ()=>roomTypes);
 parcelHelpers.export(exports, "tokenErrors", ()=>tokenErrors);
 parcelHelpers.export(exports, "uuidV4", ()=>uuidV4);
-var global = arguments[3];
 var Buffer = require("b8f81885e904c6a").Buffer;
+var global = arguments[3];
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
