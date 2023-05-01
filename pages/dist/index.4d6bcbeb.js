@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"e11Rl":[function(require,module,exports) {
+})({"aaunJ":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -614,11 +614,41 @@ const token = new (0, _room.SkyWayAuthToken)({
         }
     }
 }).encode("zufyzTSf6JdsD1m4feyiG8id/aju8Hyh7ROgcyHeHKY=");
-// create room and publish your video
 (async ()=>{
+    const localVideo = document.getElementById("local-video");
+    const buttonArea = document.getElementById("button-area");
+    const remoteMediaArea = document.getElementById("remote-media-area");
     const roomNameInput = document.getElementById("room-name");
+    const cameraList = document.getElementById("camera-list");
     const myId = document.getElementById("my-id");
     const joinButton = document.getElementById("join");
+    // list all video devices
+    (0, _room.SkyWayStreamFactory).enumerateInputVideoDevices().then((devices)=>{
+        devices.forEach((device)=>{
+            console.log(device.kind + ": " + device.label + " id = " + device.id);
+            var option = document.createElement("option");
+            option.value = device.id;
+            option.text = device.label;
+            cameraList.appendChild(option);
+        });
+    }).catch((err)=>{
+        console.log(err.name + ": " + err.message);
+    });
+    // from here 
+    const video = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
+        deviceId: cameraList.value
+    });
+    video.attach(localVideo);
+    await localVideo.play();
+    cameraList.onchange = async ()=>{
+        console.log(cameraList.value);
+        const video = await (0, _room.SkyWayStreamFactory).createCameraVideoStream({
+            deviceId: cameraList.value
+        });
+        video.attach(localVideo);
+        await localVideo.play();
+    };
+    // to here まとめられそう
     joinButton.onclick = async ()=>{
         if (roomNameInput.value === "") return;
         const context = await (0, _room.SkyWayContext).Create(token);
@@ -628,8 +658,30 @@ const token = new (0, _room.SkyWayAuthToken)({
         });
         const me = await room.join();
         myId.textContent = me.id;
-        const video = document.getElementById("localVideo");
         await me.publish(video);
+        const subscribeAndAttach = (publication)=>{
+            if (publication.publisher.id === me.id) return;
+            const subscribeButton = document.createElement("button");
+            subscribeButton.textContent = `${publication.publisher.id}: ${publication.contentType}`;
+            buttonArea.appendChild(subscribeButton);
+            subscribeButton.onclick = async ()=>{
+                const { stream  } = await me.subscribe(publication.id);
+                let newMedia;
+                switch(stream.track.kind){
+                    case "video":
+                        newMedia = document.createElement("video");
+                        newMedia.playsInline = true;
+                        newMedia.autoplay = true;
+                        break;
+                    default:
+                        return;
+                }
+                stream.attach(newMedia);
+                remoteMediaArea.appendChild(newMedia);
+            };
+        };
+        room.publications.forEach(subscribeAndAttach);
+        room.onStreamPublished.add((e)=>subscribeAndAttach(e.publication));
     };
 })();
 
@@ -47418,6 +47470,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["e11Rl","gLLPy"], "gLLPy", "parcelRequire56c8")
+},{}]},["aaunJ","gLLPy"], "gLLPy", "parcelRequire56c8")
 
 //# sourceMappingURL=index.4d6bcbeb.js.map

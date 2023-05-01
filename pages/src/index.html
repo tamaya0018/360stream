@@ -1,27 +1,20 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="module" src="./main.js"></script>
-  <script src="./videoManager.js"></script>
-  <title>WebRTC API Tutorials</title>
-</head>
-
-<body>
-  <p>ID: <span id="my-id"></span></p>
-  <div>
-    room name: <input id="room-name" type="text" />
-  </div>
-  <button onclick="listVideoDeviceOption()">get video devices</button>
-  <select id="videoDeviceList"></select>
-  <button onClick="showVideo()">show video</button>
-  <button onClick="stopVideo()">stop video</button>
-  <div>
-    <video id="localVideo" width="400px" muted autoplay playsinline></video>
-  </div>
-  <button id="join">join</button>
-</body>
-
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SkyWay Tutorial</title>
+  </head>
+  <body>
+    <p>ID: <span id="my-id"></span></p>
+    <div>
+      room name: <input id="room-name" type="text" />
+      <select id="camera-list">select camera</select>
+      <button id="join">join</button>
+    </div>
+    <video id="local-video" width="400px" muted playsinline></video>
+    <div id="button-area"></div>
+    <div id="remote-media-area"></div>
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
