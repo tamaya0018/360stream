@@ -1,4 +1,4 @@
-8007
+8009
 68C:\Users\shizu\html\node_modules\@parcel\utils\src\getModuleParts.js133273908735080810 0
 69C:\Users\shizu\html\node_modules\@skyway-sdk\model\dist\domain.js.map133273908739183094 0
 53C:\Users\shizu\html\node_modules\nullthrows\README.md133273908797717990 0
@@ -20,7 +20,7 @@
 96C:\Users\shizu\html\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133273908720077585 0
 52C:\Users\shizu\html\node_modules\is-json\.travis.yml133273908775294026 0
 90C:\Users\shizu\html\node_modules\@skyway-sdk\core\dist\plugin\internal\unknown\plugin.d.ts133273908738545125 0
-32C:\Users\shizu\html\package.json133273908806241734 0
+32C:\Users\shizu\html\package.json133274706151495294 0
 52C:\Users\shizu\html\node_modules\lodash\fp\padEnd.js133273908788976464 0
 62C:\Users\shizu\html\node_modules\terser\lib\compress\inline.js133273908802483373 0
 81C:\Users\shizu\html\node_modules\@parcel\core\src\requests\WriteBundlesRequest.js133273908704381094 0
@@ -51,7 +51,7 @@
 70C:\Users\shizu\html\node_modules\.bin\node-gyp-build-optional-packages133273908700584330 0
 45C:\Users\shizu\html\node_modules\lodash\fp.js133273908786184932 0
 76C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\Chrome55.d.ts133273908794449979 0
-24C:\Users\shizu\html\dist133274608022708594 1
+24C:\Users\shizu\html\dist133274706447372504 1
 59C:\Users\shizu\html\node_modules\css-tree\lib\syntax\pseudo133273908764816619 1
 99C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeComments.js133273908716507249 0
 60C:\Users\shizu\html\node_modules\lodash\_arrayReduceRight.js133273908782095139 0
@@ -59,8 +59,8 @@
 43C:\Users\shizu\html\node_modules\@parcel\fs133273908706175402 1
 73C:\Users\shizu\html\node_modules\caniuse-lite\data\features\matchmedia.js133273908752175087 0
 38C:\Users\shizu\html\node_modules\tslib133273908803497558 1
-66C:\Users\shizu\html\node_modules\svgo\plugins\removeHiddenElems.js133273908801664030 0
 57C:\Users\shizu\html\node_modules\terser\tools\terser.d.ts133273908803040774 0
+66C:\Users\shizu\html\node_modules\svgo\plugins\removeHiddenElems.js133273908801664030 0
 50C:\Users\shizu\html\node_modules\lodash\findKey.js133273908785824143 0
 55C:\Users\shizu\html\node_modules\lodash\fp\dropWhile.js133273908787203468 0
 56C:\Users\shizu\html\node_modules\lodash\_asciiToArray.js133273908782176581 0
@@ -79,7 +79,7 @@
 112C:\Users\shizu\html\node_modules\@jridgewell\trace-mapping\node_modules\@jridgewell\sourcemap-codec\package.json133273908701822215 0
 51C:\Users\shizu\html\node_modules\svgo\lib\svgo.d.ts133273908801022627 0
 81C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\lib\definition-syntax133273908768434922 1
-23C:\Users\shizu\html\src133274608003422548 1
+23C:\Users\shizu\html\src133274706246416235 1
 107C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\addClassesToSVGElement.js133273908716259717 0
 60C:\Users\shizu\html\node_modules\regenerator-runtime\LICENSE133273908799520701 0
 55C:\Users\shizu\html\node_modules\lodash\fp\camelCase.js133273908786635371 0
@@ -113,7 +113,7 @@
 68C:\Users\shizu\html\node_modules\mediasoup-client\lib\index.d.ts.map133273908795329244 0
 61C:\Users\shizu\html\node_modules\commander\typings\index.d.ts133273908758079410 0
 97C:\Users\shizu\html\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133273908736554000 0
-34C:\Users\shizu\html\src\index.html133274607948892101 0
+34C:\Users\shizu\html\src\index.html133274689726826824 0
 47C:\Users\shizu\html\node_modules\supports-color133273908800706810 1
 116C:\Users\shizu\html\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\src\test.js133273908707351918 0
 51C:\Users\shizu\html\node_modules\lodash\fp\split.js133273908789608953 0
@@ -123,7 +123,30 @@
 55C:\Users\shizu\html\node_modules\lodash\fp\zipObject.js133273908790550750 0
 65C:\Users\shizu\html\node_modules\@parcel\resolver-default\LICENSE133273908718286349 0
 51C:\Users\shizu\html\node_modules\lodash\overSome.js133273908792031110 0
-31C:\Users\shizu\html\src\main.js133273908806286614 0
+31C:\Users\shizu\html\src\main.js133274705714919876 0
+39C:\Users\shizu\html\node_modules\braces133273908747443555 1
+63C:\Users\shizu\html\node_modules\@skyway-sdk\token\package.json133273908743979574 0
+64C:\Users\shizu\html\node_modules\terser\lib\compress\evaluate.js133273908802443180 0
+77C:\Users\shizu\html\node_modules\csso\node_modules\mdn-data\css\at-rules.json133273908769872244 0
+55C:\Users\shizu\html\node_modules\term-size\package.json133273908801825769 0
+68C:\Users\shizu\html\node_modules\css-tree\lib\syntax\atrule\index.js133273908764210253 0
+52C:\Users\shizu\html\node_modules\lodash\fp\extend.js133273908787316880 0
+101C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\properties.json133273908710741565 0
+76C:\Users\shizu\html\node_modules\@parcel\package-manager\test\fixtures\empty133273908717119547 1
+70C:\Users\shizu\html\node_modules\@skyway-sdk\sfu-bot\dist\version.d.ts133273908742865659 0
+53C:\Users\shizu\html\node_modules\awaitqueue\README.md133273908746269576 0
+76C:\Users\shizu\html\node_modules\caniuse-lite\data\features\input-pattern.js133273908751706334 0
+33C:\Users\shizu\html\src\publisher133274706246416235 1
+59C:\Users\shizu\html\node_modules\node-addon-api\common.gypi133273908796775864 0
+64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\MP.js133273908756029708 0
+83C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\sdp\plainRtpUtils.js133273908795200407 0
+65C:\Users\shizu\html\node_modules\mediasoup-client\lib\errors.d.ts133273908794375703 0
+62C:\Users\shizu\html\node_modules\terser\lib\compress\common.js133273908802286909 0
+61C:\Users\shizu\html\node_modules\posthtml\types\posthtml.d.ts133273908799161000 0
+42C:\Users\shizu\html\node_modules\@mischnic133273908702516299 1
+47C:\Users\shizu\html\node_modules\node-addon-api133273908796932402 1
+67C:\Users\shizu\html\node_modules\@parcel\core\src\RequestTracker.js133273908704030511 0
+34C:\Users\shizu\html\src\subscriber133274705533496939 1
 79C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\lib\syntax\index.js133273908768924106 0
 56C:\Users\shizu\html\node_modules\@parcel\package-manager133273908717071205 1
 48C:\Users\shizu\html\node_modules\uuid\LICENSE.md133273908804468233 0
@@ -194,12 +217,6 @@
 101C:\Users\shizu\html\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none\package.json133273908705090126 0
 38C:\Users\shizu\html\node_modules\@lmdb133273908702122186 1
 53C:\Users\shizu\html\node_modules\csso\lib\restructure133273908766431227 1
-64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\MP.js133273908756029708 0
-83C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\sdp\plainRtpUtils.js133273908795200407 0
-65C:\Users\shizu\html\node_modules\mediasoup-client\lib\errors.d.ts133273908794375703 0
-62C:\Users\shizu\html\node_modules\terser\lib\compress\common.js133273908802286909 0
-61C:\Users\shizu\html\node_modules\posthtml\types\posthtml.d.ts133273908799161000 0
-42C:\Users\shizu\html\node_modules\@mischnic133273908702516299 1
 69C:\Users\shizu\html\node_modules\css-what\lib\commonjs\parse.d.ts.map133273908765054359 0
 39C:\Users\shizu\html\node_modules\@types133273908745884332 1
 53C:\Users\shizu\html\node_modules\lodash\fp\shuffle.js133273908789473812 0
@@ -321,11 +338,6 @@
 51C:\Users\shizu\html\node_modules\lodash\fp\defer.js133273908787039203 0
 46C:\Users\shizu\html\node_modules\isomorphic-ws133273908775625024 1
 53C:\Users\shizu\html\node_modules\lodash\_arraySome.js133273908782142437 0
-39C:\Users\shizu\html\node_modules\braces133273908747443555 1
-63C:\Users\shizu\html\node_modules\@skyway-sdk\token\package.json133273908743979574 0
-64C:\Users\shizu\html\node_modules\terser\lib\compress\evaluate.js133273908802443180 0
-77C:\Users\shizu\html\node_modules\csso\node_modules\mdn-data\css\at-rules.json133273908769872244 0
-55C:\Users\shizu\html\node_modules\term-size\package.json133273908801825769 0
 95C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\tools.js133273908711243113 0
 72C:\Users\shizu\html\node_modules\@skyway-sdk\sfu-api-client\dist\util.js133273908741449855 0
 45C:\Users\shizu\html\node_modules\browserslist133273908747600012 1
@@ -390,7 +402,7 @@
 47C:\Users\shizu\html\node_modules\dom-serializer133273908770970378 1
 64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\TZ.js133273908756977134 0
 49C:\Users\shizu\html\node_modules\lodash\fp\all.js133273908786405494 0
-42C:\Users\shizu\html\dist\index.4d6bcbeb.js133274608022478300 0
+42C:\Users\shizu\html\dist\index.4d6bcbeb.js133274706447221264 0
 47C:\Users\shizu\html\node_modules\domhandler\lib133273908771143302 1
 52C:\Users\shizu\html\node_modules\terser\node_modules133273908802759968 1
 54C:\Users\shizu\html\node_modules\lodash\_hashDelete.js133273908784096709 0
@@ -603,7 +615,6 @@
 58C:\Users\shizu\html\node_modules\lodash\_baseSortedUniq.js133273908783176650 0
 77C:\Users\shizu\html\node_modules\utility-types\dist\aliases-and-guards.js.map133273908804168413 0
 57C:\Users\shizu\html\node_modules\dom-serializer\README.md133273908770501411 0
-47C:\Users\shizu\html\node_modules\node-addon-api133273908796932402 1
 106C:\Users\shizu\html\node_modules\@skyway-sdk\core\dist\plugin\internal\person\connection\receiver.d.ts.map133273908738295730 0
 43C:\Users\shizu\html\node_modules\node-fetch133273908797088582 1
 47C:\Users\shizu\html\node_modules\node-gyp-build133273908797244826 1
@@ -1082,7 +1093,7 @@
 82C:\Users\shizu\html\node_modules\caniuse-lite\data\features\es6-string-includes.js133273908750764499 0
 64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\GW.js133273908755400411 0
 50C:\Users\shizu\html\node_modules\terser\lib\cli.js133273908802286909 0
-46C:\Users\shizu\html\dist\index.4d6bcbeb.js.map133274608022677653 0
+46C:\Users\shizu\html\dist\index.4d6bcbeb.js.map133274706447338970 0
 45C:\Users\shizu\html\node_modules\mdn-data\css133273908793843303 1
 48C:\Users\shizu\html\node_modules\htmlparser2\lib133273908774822188 1
 115C:\Users\shizu\html\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\main.js133273908707396795 0
@@ -1709,9 +1720,6 @@
 71C:\Users\shizu\html\node_modules\@parcel\packager-js\src\.eslintrc.json133273908717436651 0
 63C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\lib133273908769715799 1
 45C:\Users\shizu\html\node_modules\svgo\plugins133273908801825769 1
-109C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-urange.js133273908708511118 0
-80C:\Users\shizu\html\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133273908718286349 0
-66C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\sdp133273908795304255 1
 72C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\package.json133273908711957713 0
 50C:\Users\shizu\html\node_modules\lodash\fp\init.js133273908787931506 0
 82C:\Users\shizu\html\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133273908780441793 0
@@ -2036,8 +2044,6 @@
 59C:\Users\shizu\html\node_modules\h264-profile-level-id\test133273908773681732 1
 61C:\Users\shizu\html\node_modules\lodash\_arrayIncludesWith.js133273908782045547 0
 62C:\Users\shizu\html\node_modules\source-map\dist\source-map.js133273908800400740 0
-80C:\Users\shizu\html\node_modules\@parcel\watcher\src\watchman\WatchmanBackend.hh133273908736097028 0
-74C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\Safari12.js133273908794951978 0
 75C:\Users\shizu\html\node_modules\caniuse-lite\data\features\script-defer.js133273908753208424 0
 70C:\Users\shizu\html\node_modules\source-map\dist\source-map.min.js.map133273908800430988 0
 67C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\LICENSE133273908766431227 0
@@ -2444,14 +2450,6 @@
 68C:\Users\shizu\html\node_modules\mediasoup-client\lib\Transport.d.ts133273908794322677 0
 52C:\Users\shizu\html\node_modules\csso\lib\version.js133273908766431227 0
 57C:\Users\shizu\html\node_modules\node-fetch\lib\index.mjs133273908797088582 0
-68C:\Users\shizu\html\node_modules\css-tree\lib\syntax\atrule\index.js133273908764210253 0
-52C:\Users\shizu\html\node_modules\lodash\fp\extend.js133273908787316880 0
-101C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\properties.json133273908710741565 0
-76C:\Users\shizu\html\node_modules\@parcel\package-manager\test\fixtures\empty133273908717119547 1
-70C:\Users\shizu\html\node_modules\@skyway-sdk\sfu-bot\dist\version.d.ts133273908742865659 0
-53C:\Users\shizu\html\node_modules\awaitqueue\README.md133273908746269576 0
-76C:\Users\shizu\html\node_modules\caniuse-lite\data\features\input-pattern.js133273908751706334 0
-59C:\Users\shizu\html\node_modules\node-addon-api\common.gypi133273908796775864 0
 67C:\Users\shizu\html\node_modules\@skyway-sdk\common\dist\promise.js133273908736827306 0
 76C:\Users\shizu\html\node_modules\@skyway-sdk\sfu-api-client\dist\errors.d.ts133273908741449855 0
 51C:\Users\shizu\html\node_modules\lodash\fp\isMap.js133273908788239048 0
@@ -2660,6 +2658,11 @@
 85C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\lib\syntax\node\String.js133273908769287282 0
 74C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\Safari11.js133273908794910457 0
 76C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\Safari12.d.ts133273908794925678 0
+80C:\Users\shizu\html\node_modules\@parcel\watcher\src\watchman\WatchmanBackend.hh133273908736097028 0
+74C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\Safari12.js133273908794951978 0
+109C:\Users\shizu\html\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-urange.js133273908708511118 0
+80C:\Users\shizu\html\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133273908718286349 0
+66C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\sdp133273908795304255 1
 76C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\cjs\syntax\scope133273908767669727 1
 60C:\Users\shizu\html\node_modules\@parcel\workers\src\process133273908736443878 1
 87C:\Users\shizu\html\node_modules\mediasoup-client\lib\handlers\sdp\commonUtils.d.ts.map133273908795138184 0
@@ -3204,9 +3207,9 @@
 48C:\Users\shizu\html\node_modules\lodash\unary.js133273908792914477 0
 102C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Ratio.js133273908714800925 0
 79C:\Users\shizu\html\node_modules\caniuse-lite\data\features\webkit-user-drag.js133273908754161463 0
+64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\KH.js133273908755560742 0
 51C:\Users\shizu\html\node_modules\lodash\unescape.js133273908792914477 0
 90C:\Users\shizu\html\node_modules\csso\node_modules\css-tree\lib\definition-syntax\parse.js133273908768294732 0
-64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\KH.js133273908755560742 0
 86C:\Users\shizu\html\node_modules\@skyway-sdk\signaling-client\node_modules\ws\index.js133273908743404473 0
 61C:\Users\shizu\html\node_modules\abortcontroller-polyfill\src133273908745984277 1
 63C:\Users\shizu\html\node_modules\domutils\lib\manipulation.d.ts133273908771436666 0
@@ -3299,7 +3302,7 @@
 57C:\Users\shizu\html\node_modules\events\tests\subclass.js133273908773207949 0
 60C:\Users\shizu\html\node_modules\lodash\_assignMergeValue.js133273908782195313 0
 87C:\Users\shizu\html\node_modules\csso\node_modules\mdn-data\api\inheritance.schema.json133273908769872244 0
-35C:\Users\shizu\html\dist\index.html133274608020414344 0
+35C:\Users\shizu\html\dist\index.html133274706445000928 0
 58C:\Users\shizu\html\node_modules\lodash\_baseAggregator.js133273908782205515 0
 60C:\Users\shizu\html\node_modules\entities\lib\index.d.ts.map133273908772269666 0
 67C:\Users\shizu\html\node_modules\caniuse-lite\dist\lib\supported.js133273908757422600 0
@@ -3377,9 +3380,6 @@
 64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\DO.js133273908754931659 0
 50C:\Users\shizu\html\node_modules\lodash\_baseLt.js133273908782866146 0
 51C:\Users\shizu\html\node_modules\lodash\_baseMap.js133273908782866146 0
-96C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\compile.d.ts133273908713866155 0
-67C:\Users\shizu\html\node_modules\lodash\fp\symmetricDifferenceBy.js133273908789765395 0
-82C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\index.js.map133273908761864509 0
 66C:\Users\shizu\html\node_modules\@skyway-sdk\signaling-client\dist133273908743347178 1
 52C:\Users\shizu\html\node_modules\lodash\_baseMean.js133273908782866146 0
 48C:\Users\shizu\html\node_modules\.bin\semver.ps1133273908700666365 0
@@ -3879,6 +3879,9 @@
 55C:\Users\shizu\html\node_modules\lodash\fp\stubFalse.js133273908789608953 0
 89C:\Users\shizu\html\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\tooltag133273908779964320 0
 54C:\Users\shizu\html\node_modules\lodash\fp\stubTrue.js133273908789765395 0
+96C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\compile.d.ts133273908713866155 0
+67C:\Users\shizu\html\node_modules\lodash\fp\symmetricDifferenceBy.js133273908789765395 0
+82C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\index.js.map133273908761864509 0
 72C:\Users\shizu\html\node_modules\@skyway-sdk\rtc-api-client\dist\util.js133273908740976867 0
 64C:\Users\shizu\html\node_modules\entities\lib\maps\entities.json133273908772311412 0
 69C:\Users\shizu\html\node_modules\lodash\fp\symmetricDifferenceWith.js133273908789765395 0
@@ -5404,10 +5407,10 @@
 71C:\Users\shizu\html\node_modules\chalk\node_modules\has-flag\index.d.ts133273908757525330 0
 106C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\1-mergeAtrule.js133273908715398547 0
 80C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\index.d.ts133273908761864509 0
-81C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib133273908715068519 1
-78C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\index.js133273908761864509 0
-64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\KI.js133273908755560742 0
 69C:\Users\shizu\html\node_modules\chalk\node_modules\has-flag\index.js133273908757525330 0
+81C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib133273908715068519 1
+64C:\Users\shizu\html\node_modules\caniuse-lite\data\regions\KI.js133273908755560742 0
+78C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\index.js133273908761864509 0
 100C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\generated\decode-data-xml.d.ts133273908761745518 0
 104C:\Users\shizu\html\node_modules\css-select\node_modules\entities\lib\generated\decode-data-xml.d.ts.map133273908761745518 0
 107C:\Users\shizu\html\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Percentage.js133273908714775581 0
@@ -7832,7 +7835,6 @@
 65C:\Users\shizu\html\node_modules\@parcel\core\src\ParcelConfig.js133273908704000073 0
 64C:\Users\shizu\html\node_modules\@parcel\core\src\projectPath.js133273908704122874 0
 67C:\Users\shizu\html\node_modules\@parcel\core\src\ReporterRunner.js133273908704015617 0
-67C:\Users\shizu\html\node_modules\@parcel\core\src\RequestTracker.js133273908704030511 0
 75C:\Users\shizu\html\node_modules\@parcel\core\src\serializerCore.browser.js133273908704408851 0
 67C:\Users\shizu\html\node_modules\@parcel\core\src\serializerCore.js133273908704408851 0
 76C:\Users\shizu\html\node_modules\@parcel\core\src\TargetDescriptor.schema.js133273908704030511 0
