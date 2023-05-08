@@ -80,6 +80,7 @@ const token = new SkyWayAuthToken({
 						newMedia = document.createElement('video');
 						newMedia.playsInline = true;
 						newMedia.autoplay = true;
+						newMedia.controls = true;
 						break;
 					case 'audio':
 						newMedia = document.createElement('audio');
