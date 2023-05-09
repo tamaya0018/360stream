@@ -77,15 +77,7 @@ const token = new SkyWayAuthToken({
 				let newMedia;
 				switch (stream.track.kind) {
 					case 'video':
-						newMedia = document.createElement('video');
-						newMedia.playsInline = true;
-						newMedia.autoplay = true;
-						newMedia.controls = true;
-						break;
-					case 'audio':
-						newMedia = document.createElement('audio');
-						newMedia.controls = true;
-						newMedia.autoplay = true;
+						newMedia = document.getElementById('video');
 						break;
 					default:
 						return;
