@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <script type="module" src="./test.js"></script>
-    <title>test page</title>
-  </head>
-  <body>
-    <select id="test-list">
-      <option hidden>test list</option>
-    </select>
-    <button id="add-list-button" onclick="addItem()">add</button>
-    <input id="add-item">
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>test page</title>
+</head>
+
+<body>
+  <select id="test-list">
+    <option hidden>test list</option>
+  </select>
+  <button id="add-list-button" onclick="addItem()">add</button>
+  <input id="add-item">
+</body>
+
+<script>
+  function addItem() {
+    const nameInput = document.getElementById("add-item");
+    const list = document.getElementById("test-list");
+
+    let option = document.createElement("option");
+    option.value = nameInput.value;
+    list.appendChild(option);
+  }
+</script>
+
 </html>
