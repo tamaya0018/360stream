@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="/subscriber.87e71b62.js"></script><script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="/subscriber.c4f7a0fb.js" defer=""></script>
+    <title>SkyWay subscriber</title>
+  </head>
+  <body>
+    <p>ID: <span id="my-id"></span></p>
+    <div>
+      room name: <input id="room-name" type="text">
+      <button id="join">join</button>
+    </div>
+    <div id="button-area"></div>
+    <div id="remote-media-area">
+      <a-scene embedded="">
+        <a-assets>
+          <video id="video" autoplay="" loop="" crossorigin="anonymous" playsinline="" webkit-playsinline=""></video>
+        </a-assets>
+        <a-videosphere src="#video"></a-videosphere>
+      </a-scene>
+    </div>
+  </body>
+</html>
