@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +11,6 @@
     "@skyway-sdk/room": "^1.2.5"
   },
   "devDependencies": {
-    "buffer": "^5.7.1",
-    "parcel": "^2.8.3"
+    "buffer": "^5.7.1"
   }
 }
