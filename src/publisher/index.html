@@ -5,18 +5,50 @@
     <meta name="viewport" content="width=device-width" />
     <script type="module" src="./js/pub.js"></script>
     <title>SkyWay publisher</title>
+    <link rel="stylesheet" href="http://cog.cs.inf.shizuoka.ac.jp/style.css" type="text/css" />
   </head>
   <body>
-    <p>ID: <span id="my-id"></span></p>
-    <div>
-      room name: <input id="room-name" type="text" />
-      <select id="camera-list">
-        <option hidden>SELECT CAMERA</option>
-      </select>
-      <button id="list-button">list</button>
-      <button id="join-button">join</button>
-      <button id="publish-button">publish</button>
+    <div id="main">
+      <div id="header">
+  
+        <h1>人のコミュニケーション活動の解明を通して人が人らしく生きることの意味を考える</h1>
+        
+        <table border="0" cellpadding="0" cellspacing="0" width="800">
+          <tr>
+            <td>　</td>
+            <td><div id="table-left"><img src="./../img/type05.gif"  height="40" alt="Takeuchi_lab Logo"></div></td>
+            <td><div id="table-left"><h3><!--<a href="index.html">-->認知的コミュニケーション研究室《竹内研究室》<br>Cognitive Communication Laboratory<!--</a>--></h3></div></td>
+            <!--<td><div id="table-right"><b>00-0000-0000</b><br /><img src="img/icon.gif" alt="icon" border="0" /> <a href="contact.html">お問い合わせ</a></div></td>-->
+          </tr>
+        </table>
+        
+        </div>
+        
+        <div id="header-menu">
+           <ul>
+            <li><a href="http://cog.cs.inf.shizuoka.ac.jp/index.html">HOME</a></li>
+            <li><a href="http://cog.cs.inf.shizuoka.ac.jp/index.html">研究室ホームページ</a></li>
+            <li><a href="http://cog.cs.inf.shizuoka.ac.jp/index.html">お問い合わせ</a></li>
+           </ul>
+        </div>
+      <div id="container">
+        <div id="contents">
+        <h1>B4実験</h1>
+        <p>ID: <span id="my-id"></span></p>
+        <div>
+          room name: <input id="room-name" type="text" />
+          <select id="camera-list">
+            <option hidden>SELECT CAMERA</option>
+          </select>
+          <button id="list-button">list</button>
+          <button id="join-button">join</button>
+          <button id="publish-button">publish</button>
+        </div>
+        <video id="local-video" width="400px" muted playsinline></video>
+    
+        </div>
+      </div>
     </div>
-    <video id="local-video" width="400px" muted playsinline></video>
+  
   </body>
 </html>
