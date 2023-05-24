@@ -1,29 +1,30 @@
 import { SkyWayStreamFactory } from '@skyway-sdk/room';
 import { Member } from '../../js/member';
 
-const cameraList = document.getElementById('camera-list');
-const localVideo = document.getElementById('local-video');
-
-const searchParams = new URLSearchParams(window.location.search);
-/*
 const publisherPrototype = {
-  me: new Member(searchParams.get('room')),
-  cameraList: document.getElementById('camera-list'),
-
-  previewVideo: async function () {
-    this.video = await SkyWayStreamFactory.createCameraVideoStream(
-      { deviceId: cameraList.value }
+  previewVideo: async function (localVideo) {
+    const video = await SkyWayStreamFactory.createCameraVideoStream(
+      { deviceId: this.cameraList.value }
     );
-    this.video.attach(localVideo);
+    video.attach(localVideo);
     await localVideo.play();
+    return video;
   },
   
-  publishVideo: function () {
-    this.me.publish(this.video)
+  publishVideo: function (myInfo, video) {
+    myInfo.publish(video)
       .then( () => {
         console.log("publish success!");
       })
   }
 };
-*/
 
+export function Publisher(roomName, cameraList) {
+  Member.call(this, roomName);
+  this.cameraList = cameraList;
+}
+
+Publisher.prototype = Object.create(Member.prototype);
+Publisher.prototype.constructor = Publisher;
+
+Object.assign(Publisher.prototype, publisherPrototype);

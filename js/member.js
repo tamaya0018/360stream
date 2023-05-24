@@ -9,8 +9,7 @@ const memberPrototype = {
       name: this.roomName,
     });
     const myInfo = await room.join();
-    // test log. if built all file, please delete this line.
-    console.log(myInfo.id);
+    return myInfo;
   }
 };
 
