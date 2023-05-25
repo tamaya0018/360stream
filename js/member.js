@@ -9,8 +9,9 @@ const memberPrototype = {
       name: this.roomName,
     });
     const myInfo = await room.join();
-    return myInfo;
-  }
+    this.myInfo = myInfo;
+    this.myRoom = room;
+  },
 };
 
 export function Member(roomName) {
