@@ -16,13 +16,27 @@ const publisherPrototype = {
       .then( () => {
         console.log("publish success!");
       })
-  }
+  },
+
+  previewAudio: async function () {
+    this.mic = await SkyWayStreamFactory.createMicrophoneAudioStream(
+      { deviceId: this.audioList.value }
+    );
+  },
+  
+  publishAudio: function () {
+    this.myInfo.publish(this.mic)
+      .then( () => {
+        console.log("publish success!");
+      })
+  },
   
 };
 
-export function Publisher(roomName, cameraList) {
+export function Publisher(roomName, cameraList, audioList) {
   Member.call(this, roomName);
   this.cameraList = cameraList;
+  this.audioList = audioList
 }
 
 Publisher.prototype = Object.create(Member.prototype);

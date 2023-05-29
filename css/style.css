@@ -1,0 +1,22 @@
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+   text-align: center;
+   color: #666666;
+}
+
+button {
+  text-align: center;
+  color: #666666;
+  width: 300px;
+  padding: 10px;
+}
+
+select {
+  text-align: center;
+  color: #666666;
+  width: 300px;
+  padding: 10px;
+}

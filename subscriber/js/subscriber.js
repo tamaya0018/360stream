@@ -21,6 +21,11 @@ const subscriberPrototype = {
         case 'video':
           newMedia = document.getElementById('video');
           break;
+        case 'audio':
+          newMedia = document.createElement('audio');
+          newMedia.controls = true;
+          newMedia.autoplay = true;
+          break;  
         default:
           return;
       }

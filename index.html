@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width" />
     <script type="module" src="./js/index.js"></script>
     <title>select role</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
   </head>
   <body>
-    room name: <input id="room-name" type="text" />
-    <button id="pub-join" onclick="pageTransition('publisher')">publisher</button>
-    <button id="sub-join" onclick="pageTransition('subscriber')">subscriber</button>
+    <h1>
+      room name: <input id="room-name" type="text" />
+    </h1>
+
+    <div align="center">
+      <button id="sub-join" onclick="pageTransition('subscriber')">SUBSCRIBER</button>
+      <button id="pub-join" onclick="pageTransition('publisher')">PUBLISHER</button>
+    </div>
   </body>
 </html>
